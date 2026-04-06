@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insights - Rita Mody Joshi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">Rita Mody Joshi</div>
+    <div class="loader-bar"></div>
+  </div>
+</div>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="index.html">Rita<span>.</span> Mody</a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-page="home">Home</a></li>
+    <li><a href="about.html" data-page="about">About</a></li>
+    <li><a href="services.html" data-page="services">Services</a></li>
+    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="insights.html" data-page="insights" class="active">Insights</a></li>
+    <li><a href="media.html" data-page="media">Media</a></li>
+  </ul>
+  <a class="nav-cta" href="contact.html">Get in Touch</a>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html" onclick="closeMobile()">Home</a>
+  <a href="about.html" onclick="closeMobile()">About</a>
+  <a href="services.html" onclick="closeMobile()">Services</a>
+  <a href="projects.html" onclick="closeMobile()">Projects</a>
+  <a href="insights.html" onclick="closeMobile()">Insights</a>
+  <a href="media.html" onclick="closeMobile()">Media</a>
+  <a href="contact.html" onclick="closeMobile()">Contact</a>
+</div>
+<main>
+<div class="insights-hero">
+    <div>
+      <div class="hero-eyebrow" style="animation:none;opacity:1;color:rgba(255,255,255,0.5);">Architecture & Design Stories</div>
+      <h1 class="insights-hero-title">Design<br><em>Insights</em></h1>
+    </div>
+  </div>
+
+  <div class="insights-grid">
+    <div class="insight-card reveal">
+      <div class="insight-card-img">
+        <div class="insight-card-img-inner photo-bg" style="height:240px;background-image:url('images/Insights 1.jpeg');"></div>
+      </div>
+      <div class="insight-card-body">
+        <div class="insight-category">Revitalization / Residential</div>
+        <h3 class="insight-title">Dharmendra Singh — A Riverfront Revival</h3>
+        <p class="insight-desc">The revitalization of a house in ruins on the Goa riverfront — a careful process of uncovering heritage, structural repair, and sensitive contemporary insertion that honors the memory of the original building.</p>
+        <div class="insight-read-more">Read more →</div>
+      </div>
+    </div>
+    <div class="insight-card reveal reveal-delay-1">
+      <div class="insight-card-img">
+        <div class="insight-card-img-inner photo-bg" style="height:240px;background-image:url('images/Insights 2.jpeg');"></div>
+      </div>
+      <div class="insight-card-body">
+        <div class="insight-category">Heritage / Urban Design</div>
+        <h3 class="insight-title">Shanti Niketan — Redevelopment of a Historic Township</h3>
+        <p class="insight-desc">A complex, multi-phased redevelopment of a historic township that required balancing the preservation of architectural memory with the demands of contemporary living and community.</p>
+        <div class="insight-read-more">Read more →</div>
+      </div>
+    </div>
+    <div class="insight-card reveal">
+      <div class="insight-card-img">
+        <div class="insight-card-img-inner photo-bg" style="height:240px;background-image:url('images/Insights 3.jpeg');"></div>
+      </div>
+      <div class="insight-card-body">
+        <div class="insight-category">Luxury / Residential</div>
+        <h3 class="insight-title">Luxo Villas — Refurbishing a Palace with Timeless Design</h3>
+        <p class="insight-desc">Refurbishing a palazzo-style villa in Aldona required an intimate understanding of Portuguese-Goan architecture, blending original period elements with a refined contemporary palette and modern amenities.</p>
+        <div class="insight-read-more">Read more →</div>
+      </div>
+    </div>
+    <div class="insight-card reveal reveal-delay-1">
+      <div class="insight-card-img">
+        <div class="insight-card-img-inner photo-bg" style="height:240px;background-image:url('images/Insights 4.jpg');"></div>
+      </div>
+      <div class="insight-card-body">
+        <div class="insight-category">Hospitality / Commercial</div>
+        <h3 class="insight-title">Stork Hotel — Luxury with Practical Cost Efficiency</h3>
+        <p class="insight-desc">Designing a luxury hospitality property that achieves the highest aesthetic standards while maintaining strict budget discipline and operational efficiency — a challenge that demands innovation at every turn.</p>
+        <div class="insight-read-more">Read more →</div>
+      </div>
+    </div>
+  </div>
+  <section class="archive-section" style="background:var(--white);">
+    <div class="section-label">Insight Gallery</div>
+    <h2 class="section-title">More <em>Insight Images</em></h2>
+    <div class="archive-grid">
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 5.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 01</h3>
+          <div class="archive-file">Insights 5.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 6.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 02</h3>
+          <div class="archive-file">Insights 6.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 7.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 03</h3>
+          <div class="archive-file">Insights 7.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 8.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 04</h3>
+          <div class="archive-file">Insights 8.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 9.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 05</h3>
+          <div class="archive-file">Insights 9.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 10.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 06</h3>
+          <div class="archive-file">Insights 10.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 11.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 07</h3>
+          <div class="archive-file">Insights 11.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 13.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 08</h3>
+          <div class="archive-file">Insights 13.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 14.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 09</h3>
+          <div class="archive-file">Insights 14.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 15.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 10</h3>
+          <div class="archive-file">Insights 15.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 16.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 11</h3>
+          <div class="archive-file">Insights 16.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 17.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 12</h3>
+          <div class="archive-file">Insights 17.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 18.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 13</h3>
+          <div class="archive-file">Insights 18.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 19.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 14</h3>
+          <div class="archive-file">Insights 19.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 20.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 15</h3>
+          <div class="archive-file">Insights 20.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 21.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 16</h3>
+          <div class="archive-file">Insights 21.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 22.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 17</h3>
+          <div class="archive-file">Insights 22.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 23.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 18</h3>
+          <div class="archive-file">Insights 23.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/Insights 24.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Insight Gallery</div>
+          <h3 class="archive-title">Insight 19</h3>
+          <div class="archive-file">Insights 24.jpeg</div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer id="main-footer">
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand-name">Rita Mody Joshi</div>
+      <p class="footer-brand-desc">A leading architecture and interior design practice based in Calangute, Goa. Crafting timeless spaces since 1992.</p>
+      <div style="display:flex;gap:1rem;margin-top:1.5rem;">
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">in</div>
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">ig</div>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigation</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="services.html">Architecture</a></li>
+        <li><a href="services.html">Interior Design</a></li>
+        <li><a href="services.html">3D Imaging</a></li>
+        <li><a href="services.html">Project Management</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links" style="gap:1rem;">
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;line-height:1.7;">Calangute, Bardez<br>Goa 403516</li>
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;">+91 93261-00722</li>
+        <li><a href="mailto:ritamody@gmail.com" style="color:var(--gold);font-size:0.82rem;">ritamody@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>&copy; 2024 <span class="footer-gold">Rita Mody Joshi</span> &amp; Associates. All rights reserved.</div>
+    <div>Architecture + Interior Design + Imaging + Project Management</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+

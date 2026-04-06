@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Rita Mody Joshi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">Rita Mody Joshi</div>
+    <div class="loader-bar"></div>
+  </div>
+</div>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="index.html">Rita<span>.</span> Mody</a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-page="home">Home</a></li>
+    <li><a href="about.html" data-page="about">About</a></li>
+    <li><a href="services.html" data-page="services">Services</a></li>
+    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="insights.html" data-page="insights">Insights</a></li>
+    <li><a href="media.html" data-page="media">Media</a></li>
+  </ul>
+  <a class="nav-cta" href="contact.html">Get in Touch</a>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html" onclick="closeMobile()">Home</a>
+  <a href="about.html" onclick="closeMobile()">About</a>
+  <a href="services.html" onclick="closeMobile()">Services</a>
+  <a href="projects.html" onclick="closeMobile()">Projects</a>
+  <a href="insights.html" onclick="closeMobile()">Insights</a>
+  <a href="media.html" onclick="closeMobile()">Media</a>
+  <a href="contact.html" onclick="closeMobile()">Contact</a>
+</div>
+<main>
+<div class="contact-hero">
+    <div>
+      <div class="section-label">Connect With Us</div>
+      <h1 class="contact-hero-title">Why not<br>say <em>hello?</em></h1>
+      <p style="font-size:0.9rem;color:var(--text-muted);margin-top:0.8rem;">Write to us via the form below, or send us an email directly.</p>
+    </div>
+  </div>
+
+  <section class="contact-main">
+    <div class="contact-main-grid">
+      <div class="contact-big-form reveal">
+        <div class="section-label">Send a Message</div>
+        <h2 class="section-title" style="margin-bottom:2.5rem;">Start Your<br><em>Project</em> Today</h2>
+        <div class="big-form-row">
+          <div class="big-form-group">
+            <label class="form-label">Name *</label>
+            <input class="form-input" type="text" placeholder="Your full name">
+          </div>
+          <div class="big-form-group">
+            <label class="form-label">Email *</label>
+            <input class="form-input" type="email" placeholder="you@email.com">
+          </div>
+        </div>
+        <div class="big-form-row">
+          <div class="big-form-group">
+            <label class="form-label">Phone</label>
+            <input class="form-input" type="tel" placeholder="+91 XXXXX XXXXX">
+          </div>
+          <div class="big-form-group">
+            <label class="form-label">Service Required</label>
+            <select class="form-select">
+              <option>Architecture</option>
+              <option>Interior Design</option>
+              <option>Imaging</option>
+              <option>Project Management</option>
+              <option>Consultation</option>
+            </select>
+          </div>
+        </div>
+        <div class="big-form-row">
+          <div class="big-form-group full">
+            <label class="form-label">Subject</label>
+            <input class="form-input" type="text" placeholder="What is this about?">
+          </div>
+        </div>
+        <div class="big-form-row">
+          <div class="big-form-group full">
+            <label class="form-label">Message *</label>
+            <textarea class="form-textarea" style="min-height:180px;" placeholder="Tell us about your project, timeline, and budget..."></textarea>
+          </div>
+        </div>
+        <button class="btn-primary" style="width:100%;justify-content:center;padding:1.2rem;">Send Message ↗</button>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <div class="contact-details-panel">
+          <div class="contact-panel-title">Get in Touch</div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Phone</div>
+            <div class="contact-detail-val">+91 93261-00722<br>+91 98221-03551</div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Email</div>
+            <div class="contact-detail-val">ritamody@gmail.com</div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Office Address</div>
+            <div class="contact-detail-val">H.No. 2/455 A, Chogm House,<br>Chogm Road, Naika Waddo,<br>Calangute, Bardez, Goa 403516</div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-label">Working Hours</div>
+            <div class="contact-detail-val">
+              Mon–Fri: 10:00am – 6:00pm<br>
+              Saturday: 10:00am – 2:00pm<br>
+              Sunday: Closed
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:2rem;padding:2rem;background:var(--text);">
+          <div style="font-family:var(--font-serif);font-size:1.5rem;font-weight:300;color:var(--white);margin-bottom:0.8rem;">Let's Build Something Together</div>
+          <p style="font-size:0.85rem;color:rgba(255,255,255,0.5);line-height:1.8;margin-bottom:1.5rem;">We offer a complimentary 30-minute initial consultation for all new enquiries. Reach out and we'll respond within 24 hours.</p>
+          <div style="display:flex;align-items:center;gap:0.8rem;">
+            <div style="width:8px;height:8px;background:var(--gold);border-radius:50%;animation:pulse 2s infinite;"></div>
+            <span style="font-size:0.78rem;color:rgba(255,255,255,0.5);letter-spacing:0.1em;text-transform:uppercase;">Currently Accepting New Projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer id="main-footer">
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand-name">Rita Mody Joshi</div>
+      <p class="footer-brand-desc">A leading architecture and interior design practice based in Calangute, Goa. Crafting timeless spaces since 1992.</p>
+      <div style="display:flex;gap:1rem;margin-top:1.5rem;">
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">in</div>
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">ig</div>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigation</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="services.html">Architecture</a></li>
+        <li><a href="services.html">Interior Design</a></li>
+        <li><a href="services.html">3D Imaging</a></li>
+        <li><a href="services.html">Project Management</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links" style="gap:1rem;">
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;line-height:1.7;">Calangute, Bardez<br>Goa 403516</li>
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;">+91 93261-00722</li>
+        <li><a href="mailto:ritamody@gmail.com" style="color:var(--gold);font-size:0.82rem;">ritamody@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>&copy; 2024 <span class="footer-gold">Rita Mody Joshi</span> &amp; Associates. All rights reserved.</div>
+    <div>Architecture + Interior Design + Imaging + Project Management</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

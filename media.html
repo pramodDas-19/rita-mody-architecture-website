@@ -1,0 +1,644 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media - Rita Mody Joshi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">Rita Mody Joshi</div>
+    <div class="loader-bar"></div>
+  </div>
+</div>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="index.html">Rita<span>.</span> Mody</a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-page="home">Home</a></li>
+    <li><a href="about.html" data-page="about">About</a></li>
+    <li><a href="services.html" data-page="services">Services</a></li>
+    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="insights.html" data-page="insights">Insights</a></li>
+    <li><a href="media.html" data-page="media" class="active">Media</a></li>
+  </ul>
+  <a class="nav-cta" href="contact.html">Get in Touch</a>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html" onclick="closeMobile()">Home</a>
+  <a href="about.html" onclick="closeMobile()">About</a>
+  <a href="services.html" onclick="closeMobile()">Services</a>
+  <a href="projects.html" onclick="closeMobile()">Projects</a>
+  <a href="insights.html" onclick="closeMobile()">Insights</a>
+  <a href="media.html" onclick="closeMobile()">Media</a>
+  <a href="contact.html" onclick="closeMobile()">Contact</a>
+</div>
+<main>
+<div class="media-hero">
+    <div>
+      <div class="section-label">Gallery</div>
+      <h1 class="media-hero-title" style="font-family:var(--font-serif);font-size:clamp(2.8rem,5.5vw,4.5rem);font-weight:300;color:var(--text);">Media & <span style="font-style:italic;color:var(--gold);">Gallery</span></h1>
+      <p style="font-size:0.88rem;color:var(--text-muted);margin-top:0.8rem;">Explore images, video and other media around our projects and team.</p>
+    </div>
+  </div>
+
+  <section class="media-gallery">
+    <div class="section-label">Project Photography</div>
+    <h2 class="section-title">Visual <em>Portfolio</em></h2>
+    <div class="media-gallery-grid">
+      <div class="media-item reveal"><div class="media-item-bg photo-bg" style="background-image:url('images/media2.png');"></div></div>
+      <div class="media-item reveal reveal-delay-1"><div class="media-item-bg photo-bg" style="background-image:url('images/media3.png');"></div></div>
+      <div class="media-item reveal reveal-delay-2"><div class="media-item-bg photo-bg" style="background-image:url('images/media4.png');"></div></div>
+      <div class="media-item reveal reveal-delay-3"><div class="media-item-bg photo-bg" style="background-image:url('images/media5.jpg');"></div></div>
+      <div class="media-item reveal"><div class="media-item-bg photo-bg" style="background-image:url('images/media6.jpeg');"></div></div>
+      <div class="media-item reveal reveal-delay-1"><div class="media-item-bg photo-bg" style="background-image:url('images/media7.jpg');"></div></div>
+      <div class="media-item reveal reveal-delay-2"><div class="media-item-bg photo-bg" style="background-image:url('images/media8.jpg');"></div></div>
+      <div class="media-item reveal reveal-delay-3"><div class="media-item-bg photo-bg" style="background-image:url('images/media9.jpg');"></div></div>
+      <div class="media-item reveal"><div class="media-item-bg photo-bg" style="background-image:url('images/media10.jpg');"></div></div>
+      <div class="media-item reveal reveal-delay-1"><div class="media-item-bg photo-bg" style="background-image:url('images/media11.jpg');"></div></div>
+      <div class="media-item reveal reveal-delay-2"><div class="media-item-bg photo-bg" style="background-image:url('images/media12.jpg');"></div></div>
+      <div class="media-item reveal reveal-delay-3"><div class="media-item-bg photo-bg" style="background-image:url('images/media13.jpg');"></div></div>
+    </div>
+  </section>
+
+  <section class="video-section reveal">
+    <div class="section-label">Showcase</div>
+    <h2 class="section-title">Video <em>Walkthroughs</em></h2>
+    <div class="video-thumb">
+      <div class="photo-bg" style="position:absolute;inset:0;background-image:linear-gradient(rgba(17,17,17,0.32), rgba(17,17,17,0.52)), url('images/media14.jpg');"></div>
+      <div style="position:relative;z-index:1;text-align:center;">
+        <div class="video-play"></div>
+        <p style="color:rgba(255,255,255,0.5);font-size:0.78rem;letter-spacing:0.1em;text-transform:uppercase;margin-top:1rem;">Project Showcase Reel</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:5rem 4rem;background:var(--white);">
+    <div class="section-label">Events & Recognition</div>
+    <h2 class="section-title">Awards &<br><em>Events</em></h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:3rem;">
+      <div style="aspect-ratio:4/3;overflow:hidden;" class="reveal">
+        <div class="photo-bg" style="width:100%;height:100%;background-image:url('images/media15.jpg');"></div>
+      </div>
+      <div style="aspect-ratio:4/3;overflow:hidden;" class="reveal reveal-delay-1">
+        <div class="photo-bg" style="width:100%;height:100%;background-image:url('images/media16.jpg');"></div>
+      </div>
+      <div style="aspect-ratio:4/3;overflow:hidden;" class="reveal reveal-delay-2">
+        <div class="photo-bg" style="width:100%;height:100%;background-image:url('images/media17.jpg');"></div>
+      </div>
+    </div>
+  </section>
+  <section class="archive-section" style="background:var(--white);">
+    <div class="section-label">Media Archive</div>
+    <h2 class="section-title">More <em>Gallery Images</em></h2>
+    <div class="archive-grid">
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media18.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 01</h3>
+          <div class="archive-file">media18.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media19.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 02</h3>
+          <div class="archive-file">media19.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media20.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 03</h3>
+          <div class="archive-file">media20.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media21.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 04</h3>
+          <div class="archive-file">media21.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media22.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 05</h3>
+          <div class="archive-file">media22.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media23.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 06</h3>
+          <div class="archive-file">media23.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media24.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 07</h3>
+          <div class="archive-file">media24.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media25.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 08</h3>
+          <div class="archive-file">media25.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media26.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 09</h3>
+          <div class="archive-file">media26.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media27.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 10</h3>
+          <div class="archive-file">media27.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media28.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 11</h3>
+          <div class="archive-file">media28.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media29.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 12</h3>
+          <div class="archive-file">media29.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media30.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 13</h3>
+          <div class="archive-file">media30.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media31.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 14</h3>
+          <div class="archive-file">media31.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media32.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 15</h3>
+          <div class="archive-file">media32.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media33.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 16</h3>
+          <div class="archive-file">media33.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media34.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 17</h3>
+          <div class="archive-file">media34.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media35.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 18</h3>
+          <div class="archive-file">media35.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media36.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 19</h3>
+          <div class="archive-file">media36.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media37.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 20</h3>
+          <div class="archive-file">media37.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media38.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 21</h3>
+          <div class="archive-file">media38.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media39.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 22</h3>
+          <div class="archive-file">media39.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media40.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 23</h3>
+          <div class="archive-file">media40.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media41.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 24</h3>
+          <div class="archive-file">media41.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media42.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 25</h3>
+          <div class="archive-file">media42.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media43.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 26</h3>
+          <div class="archive-file">media43.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media44.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 27</h3>
+          <div class="archive-file">media44.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media45.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 28</h3>
+          <div class="archive-file">media45.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media46.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 29</h3>
+          <div class="archive-file">media46.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media47.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 30</h3>
+          <div class="archive-file">media47.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media48.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 31</h3>
+          <div class="archive-file">media48.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media50.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 32</h3>
+          <div class="archive-file">media50.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media51.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 33</h3>
+          <div class="archive-file">media51.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media52.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 34</h3>
+          <div class="archive-file">media52.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media53.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 35</h3>
+          <div class="archive-file">media53.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media54.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 36</h3>
+          <div class="archive-file">media54.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media55.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 37</h3>
+          <div class="archive-file">media55.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media56.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 38</h3>
+          <div class="archive-file">media56.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media57.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 39</h3>
+          <div class="archive-file">media57.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media58.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 40</h3>
+          <div class="archive-file">media58.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media59.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 41</h3>
+          <div class="archive-file">media59.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media60.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 42</h3>
+          <div class="archive-file">media60.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media61.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 43</h3>
+          <div class="archive-file">media61.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media62.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 44</h3>
+          <div class="archive-file">media62.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media63.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 45</h3>
+          <div class="archive-file">media63.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media64.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 46</h3>
+          <div class="archive-file">media64.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media65.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 47</h3>
+          <div class="archive-file">media65.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media66.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 48</h3>
+          <div class="archive-file">media66.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media67.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 49</h3>
+          <div class="archive-file">media67.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media68.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 50</h3>
+          <div class="archive-file">media68.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media69.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 51</h3>
+          <div class="archive-file">media69.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media70.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 52</h3>
+          <div class="archive-file">media70.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media71.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 53</h3>
+          <div class="archive-file">media71.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media72.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 54</h3>
+          <div class="archive-file">media72.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media73.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 55</h3>
+          <div class="archive-file">media73.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media74.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 56</h3>
+          <div class="archive-file">media74.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media75.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 57</h3>
+          <div class="archive-file">media75.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media76.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 58</h3>
+          <div class="archive-file">media76.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media77.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 59</h3>
+          <div class="archive-file">media77.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media78.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 60</h3>
+          <div class="archive-file">media78.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/media79.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Media Archive</div>
+          <h3 class="archive-title">Media 61</h3>
+          <div class="archive-file">media79.jpg</div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer id="main-footer">
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand-name">Rita Mody Joshi</div>
+      <p class="footer-brand-desc">A leading architecture and interior design practice based in Calangute, Goa. Crafting timeless spaces since 1992.</p>
+      <div style="display:flex;gap:1rem;margin-top:1.5rem;">
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">in</div>
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">ig</div>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigation</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="services.html">Architecture</a></li>
+        <li><a href="services.html">Interior Design</a></li>
+        <li><a href="services.html">3D Imaging</a></li>
+        <li><a href="services.html">Project Management</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links" style="gap:1rem;">
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;line-height:1.7;">Calangute, Bardez<br>Goa 403516</li>
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;">+91 93261-00722</li>
+        <li><a href="mailto:ritamody@gmail.com" style="color:var(--gold);font-size:0.82rem;">ritamody@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>&copy; 2024 <span class="footer-gold">Rita Mody Joshi</span> &amp; Associates. All rights reserved.</div>
+    <div>Architecture + Interior Design + Imaging + Project Management</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+

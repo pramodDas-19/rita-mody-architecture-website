@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects - Rita Mody Joshi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">Rita Mody Joshi</div>
+    <div class="loader-bar"></div>
+  </div>
+</div>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="index.html">Rita<span>.</span> Mody</a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-page="home">Home</a></li>
+    <li><a href="about.html" data-page="about">About</a></li>
+    <li><a href="services.html" data-page="services">Services</a></li>
+    <li><a href="projects.html" data-page="projects" class="active">Projects</a></li>
+    <li><a href="insights.html" data-page="insights">Insights</a></li>
+    <li><a href="media.html" data-page="media">Media</a></li>
+  </ul>
+  <a class="nav-cta" href="contact.html">Get in Touch</a>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html" onclick="closeMobile()">Home</a>
+  <a href="about.html" onclick="closeMobile()">About</a>
+  <a href="services.html" onclick="closeMobile()">Services</a>
+  <a href="projects.html" onclick="closeMobile()">Projects</a>
+  <a href="insights.html" onclick="closeMobile()">Insights</a>
+  <a href="media.html" onclick="closeMobile()">Media</a>
+  <a href="contact.html" onclick="closeMobile()">Contact</a>
+</div>
+<main>
+<div class="projects-hero">
+    <h1 class="projects-hero-title">A Portfolio<br>of <em>Excellence</em></h1>
+    <p class="projects-hero-sub">Browse our portfolio to witness the diverse architectural solutions tailored to clients of varying scopes and scales.</p>
+  </div>
+
+  <div class="all-projects-grid">
+
+    <div class="proj-card reveal">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects1.jpeg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Regent Hotel</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-1">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects2.jpeg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Art Hotel</div><div class="proj-card-loc">Calangute, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-2">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects3.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Avanilaya</div><div class="proj-card-loc">Aldona, Goa</div></div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects4.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Mykonos Blu</div><div class="proj-card-loc">Arpora, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-1">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects5.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Dharmendra Singh</div><div class="proj-card-loc">Ribandar, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-2">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects6.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Yasmine Larakhi</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects7.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Tony & Sonalee Mukherjee</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-1">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects8.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Luxo Villa</div><div class="proj-card-loc">Aldona, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-2">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects9.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Chogm House</div><div class="proj-card-loc">Calangute, Goa</div></div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects10.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Casa Mia</div><div class="proj-card-loc">Calangute, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-1">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects11.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Calangute Ventures</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-2">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects12.jpeg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Stork Hotel</div><div class="proj-card-loc">Calangute, Goa</div></div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects13.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Assagaon Envy</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-1">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects14.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">River Rays</div><div class="proj-card-loc">Reis Magos, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-2">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects15.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Tranquility Apartments</div><div class="proj-card-loc">Parra, Goa</div></div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects16.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Waterpark</div><div class="proj-card-loc">Anjuna, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-1">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects17.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Richmond Park</div><div class="proj-card-loc">Saligao, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-2">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects18.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Tamarind Hotel</div><div class="proj-card-loc">Anjuna, Goa</div></div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects19.jpeg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Bill Cull Residence</div><div class="proj-card-loc">UK</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-1">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects20.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Gurudwara</div><div class="proj-card-loc">Betim, Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-2">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects21.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Baga Retreat House</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects22.jpg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Mangesh Gaonkar Office</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-1">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects23.webp');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Harjatinder Singh Bajaj</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+    <div class="proj-card reveal reveal-delay-2">
+      <div class="proj-card-bg photo-bg" style="background-image:url('images/projects24.jpeg');"></div>
+      <div class="proj-card-overlay"></div>
+      <div class="proj-card-info"><div class="proj-card-name">Chapel</div><div class="proj-card-loc">Goa</div></div>
+    </div>
+
+  </div>
+  <section class="archive-section" style="background:var(--white);">
+    <div class="section-label">Extended Portfolio</div>
+    <h2 class="section-title">More <em>Project Images</em></h2>
+    <div class="archive-grid">
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects25.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 01</h3>
+          <div class="archive-file">projects25.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects26.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 02</h3>
+          <div class="archive-file">projects26.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects26.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 03</h3>
+          <div class="archive-file">projects26.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects27.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 04</h3>
+          <div class="archive-file">projects27.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects28.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 05</h3>
+          <div class="archive-file">projects28.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects28.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 06</h3>
+          <div class="archive-file">projects28.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects29.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 07</h3>
+          <div class="archive-file">projects29.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects30.jpeg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 08</h3>
+          <div class="archive-file">projects30.jpeg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects31.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 09</h3>
+          <div class="archive-file">projects31.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-1">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects32.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 10</h3>
+          <div class="archive-file">projects32.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-2">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects33.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 11</h3>
+          <div class="archive-file">projects33.jpg</div>
+        </div>
+      </article>
+      <article class="archive-card reveal reveal-delay-3">
+        <div class="archive-thumb photo-bg" style="background-image:url('images/projects34.jpg');"></div>
+        <div class="archive-meta">
+          <div class="archive-kicker">Extended Portfolio</div>
+          <h3 class="archive-title">Project Archive 12</h3>
+          <div class="archive-file">projects34.jpg</div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer id="main-footer">
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand-name">Rita Mody Joshi</div>
+      <p class="footer-brand-desc">A leading architecture and interior design practice based in Calangute, Goa. Crafting timeless spaces since 1992.</p>
+      <div style="display:flex;gap:1rem;margin-top:1.5rem;">
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">in</div>
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">ig</div>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigation</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="services.html">Architecture</a></li>
+        <li><a href="services.html">Interior Design</a></li>
+        <li><a href="services.html">3D Imaging</a></li>
+        <li><a href="services.html">Project Management</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links" style="gap:1rem;">
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;line-height:1.7;">Calangute, Bardez<br>Goa 403516</li>
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;">+91 93261-00722</li>
+        <li><a href="mailto:ritamody@gmail.com" style="color:var(--gold);font-size:0.82rem;">ritamody@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>&copy; 2024 <span class="footer-gold">Rita Mody Joshi</span> &amp; Associates. All rights reserved.</div>
+    <div>Architecture + Interior Design + Imaging + Project Management</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+

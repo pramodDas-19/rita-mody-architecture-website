@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rita Mody Joshi - Architecture & Interior Design, Goa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">Rita Mody Joshi</div>
+    <div class="loader-bar"></div>
+  </div>
+</div>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="index.html">Rita<span>.</span> Mody</a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-page="home" class="active">Home</a></li>
+    <li><a href="about.html" data-page="about">About</a></li>
+    <li><a href="services.html" data-page="services">Services</a></li>
+    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="insights.html" data-page="insights">Insights</a></li>
+    <li><a href="media.html" data-page="media">Media</a></li>
+  </ul>
+  <a class="nav-cta" href="contact.html">Get in Touch</a>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html" onclick="closeMobile()">Home</a>
+  <a href="about.html" onclick="closeMobile()">About</a>
+  <a href="services.html" onclick="closeMobile()">Services</a>
+  <a href="projects.html" onclick="closeMobile()">Projects</a>
+  <a href="insights.html" onclick="closeMobile()">Insights</a>
+  <a href="media.html" onclick="closeMobile()">Media</a>
+  <a href="contact.html" onclick="closeMobile()">Contact</a>
+</div>
+<main>
+<!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg photo-bg" style="background-image:linear-gradient(rgba(240,236,228,0.24), rgba(248,248,248,0.32)), url('images/Home.jpg'); opacity:0.88;"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Architecture & Interior Design — Goa, India</div>
+      <h1 class="hero-title">Traditions.<br><em>Incorporated</em><br>with Innovation.</h1>
+      <p class="hero-desc">We are a leading architecture and interior design firm in Goa. We offer a wide range of design services to ensure that your dreams are fulfilled.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="projects.html">View Projects ↗</a>
+        <a class="btn-outline" href="contact.html">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="hero-scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+    <div class="hero-stat-bar">
+      <div class="hero-stat-item">
+        <div class="hero-stat-num">23</div>
+        <div class="hero-stat-label">Years Experience</div>
+      </div>
+      <div class="hero-stat-item">
+        <div class="hero-stat-num">2125+</div>
+        <div class="hero-stat-label">Projects Completed</div>
+      </div>
+      <div class="hero-stat-item">
+        <div class="hero-stat-num">850+</div>
+        <div class="hero-stat-label">Clients Served</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Services -->
+  <section class="services-section reveal">
+    <div class="section-label">What We Do</div>
+    <h2 class="section-title">Our <em>Services</em></h2>
+    <p class="section-subtitle">Crafting spaces that balance aesthetic beauty with practical functionality across every discipline.</p>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-num">01</div>
+        <div class="service-name">Architecture</div>
+        <p class="service-desc">Committed to working with no compromise towards quality, we create the perfect mix of aesthetic beauty and practical functionality.</p>
+        <div class="service-arrow">Explore Service →</div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-num">02</div>
+        <div class="service-name">Interior Design</div>
+        <p class="service-desc">Striving to create a unique identity with a personal touch, blending diverse components across modern and traditional projects.</p>
+        <div class="service-arrow">Explore Service →</div>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-num">03</div>
+        <div class="service-name">Imaging</div>
+        <p class="service-desc">Delivering customized dynamic and life-evoking visuals through computer-generated 3D visualizations and graphical presentations.</p>
+        <div class="service-arrow">Explore Service →</div>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <div class="service-num">04</div>
+        <div class="service-name">Project Management</div>
+        <p class="service-desc">Unwavering commitment to deliver within deadlines, with executional precision from coordination to on-site supervision.</p>
+        <div class="service-arrow">Explore Service →</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- About Preview -->
+  <section class="about-section">
+    <div class="about-grid">
+      <div class="about-image-wrap reveal">
+        <div class="about-image-bg photo-bg" style="background-image:url('images/Home1.jpg');"></div>
+        <div class="about-image-frame"></div>
+      </div>
+      <div class="about-content reveal reveal-delay-2">
+        <div class="section-label">About the Architect</div>
+        <h2 class="section-title">Ar. Rita<br>Mody <em>Joshi</em></h2>
+        <p class="about-bio">"Architecture is not merely the art of construction; it is the art of creating environments that inspire and endure."</p>
+        <p class="about-text">Founded in 1992, Rita Mody Joshi's practice has grown into a celebrated firm known for a nuanced blend of tradition and contemporary design. Based in Calangute, Goa, her work spans hospitality, residential, commercial and heritage revitalization — each project shaped by a deep sensitivity to place and client.</p>
+        <p class="about-text">With a B.Arch from CEPT Ahmedabad, Rita brings both rigorous academic foundation and decades of hands-on expertise to every commission.</p>
+        <div class="stats-row">
+          <div class="stat-item">
+            <div class="stat-num">23</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2125+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">850+</div>
+            <div class="stat-label">Clients</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Featured Projects -->
+  <section class="projects-section reveal">
+    <div class="section-label">Portfolio Highlights</div>
+    <h2 class="section-title">Featured <em>Projects</em></h2>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-img-bg photo-bg" style="background-image:url('images/Home3.png');"></div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <div class="project-name">Art Hotel</div>
+          <div class="project-loc">Calangute, Goa</div>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-delay-1">
+        <div class="project-img-bg photo-bg" style="background-image:url('images/Home4.jpg');"></div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <div class="project-name">Avanilaya</div>
+          <div class="project-loc">Aldona, Goa</div>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-img-bg photo-bg" style="background-image:url('images/Home5.jpg');"></div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <div class="project-name">Luxo Villa</div>
+          <div class="project-loc">Aldona, Goa</div>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-delay-3">
+        <div class="project-img-bg photo-bg" style="background-image:url('images/projects1.jpeg');"></div>
+        <div class="project-overlay"></div>
+        <div class="project-info">
+          <div class="project-name">Yasmine Larakhi</div>
+          <div class="project-loc">Cumbarjua, Goa</div>
+        </div>
+      </div>
+    </div>
+    <div class="projects-cta">
+      <a class="btn-outline" href="projects.html">View All Projects</a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Why Choose Us -->
+  <section class="why-section">
+    <div class="section-label">Our Distinction</div>
+    <h2 class="section-title" style="color:var(--white)">Why Choose <em>Us</em></h2>
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <div class="why-icon">✦</div>
+        <div class="why-title">Experienced Professionals</div>
+        <p class="why-desc">Over two decades of architectural practice with a multidisciplinary in-house team of designers, engineers, and craftsmen.</p>
+      </div>
+      <div class="why-item reveal reveal-delay-1">
+        <div class="why-icon">◈</div>
+        <div class="why-title">Sustainable Design</div>
+        <p class="why-desc">Every project integrates sustainable principles, registered with the Indian Green Building Council to ensure responsible design.</p>
+      </div>
+      <div class="why-item reveal reveal-delay-2">
+        <div class="why-icon">◇</div>
+        <div class="why-title">Honest & Dependable</div>
+        <p class="why-desc">A reputation built on integrity. We communicate clearly, honor deadlines, and deliver exactly what we promise.</p>
+      </div>
+      <div class="why-item reveal reveal-delay-3">
+        <div class="why-icon">◉</div>
+        <div class="why-title">Customized Ideas</div>
+        <p class="why-desc">No template solutions. Every design is conceived from scratch around your unique vision, context, and aspirations.</p>
+      </div>
+      <div class="why-item reveal reveal-delay-4">
+        <div class="why-icon">○</div>
+        <div class="why-title">Expert Consultation</div>
+        <p class="why-desc">Deep technical expertise paired with genuine listening. We understand your needs before we put pen to paper.</p>
+      </div>
+      <div class="why-item reveal reveal-delay-5">
+        <div class="why-icon">★</div>
+        <div class="why-title">Award Winning Firm</div>
+        <p class="why-desc">Recognized across Goa for design excellence, including BNI Maximum Referrals and multiple regional architecture awards.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="testimonial-section">
+    <blockquote class="testimonial-quote reveal">
+      It is my absolute pleasure to recommend Ar. Rita Mody Joshi. Her architectural sensibility is matched only by her unwavering attention to detail and her genuine commitment to understanding the client's vision. The result was a space that exceeded every expectation.
+    </blockquote>
+    <div class="testimonial-author reveal reveal-delay-1">
+      <div class="testimonial-line"></div>
+      <div class="testimonial-name">Dr. Subhash Singh — Client</div>
+      <div class="testimonial-line"></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Contact CTA -->
+  <section class="contact-cta-section">
+    <div class="contact-cta-inner">
+      <div class="reveal">
+        <div class="section-label">Begin Your Project</div>
+        <h2 class="section-title">Let's Create<br><em>Something</em><br>Remarkable</h2>
+        <p class="section-subtitle" style="margin-bottom:2rem;">Tell us about your vision. We respond within 24 hours and offer a complimentary initial consultation.</p>
+        <div style="display:flex;flex-direction:column;gap:1rem;padding:1.5rem;background:var(--bg);border-left:3px solid var(--gold);">
+          <div class="contact-detail-label">Work Timings</div>
+          <div class="contact-detail-val" style="font-size:0.88rem;color:var(--text-muted);">Mon–Fri: 10:00am – 6:00pm &nbsp;|&nbsp; Sat: 10:00am – 2:00pm</div>
+          <div class="contact-detail-label">Phone</div>
+          <div class="contact-detail-val" style="font-size:0.88rem;">+91 93261-00722 &nbsp;|&nbsp; +91 98221-03551</div>
+          <div class="contact-detail-label">Email</div>
+          <div class="contact-detail-val" style="font-size:0.88rem;">ritamody@gmail.com</div>
+        </div>
+      </div>
+      <div class="contact-form reveal reveal-delay-2">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input class="form-input" type="text" placeholder="Your full name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" placeholder="you@email.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Phone</label>
+            <input class="form-input" type="tel" placeholder="+91 XXXXX XXXXX">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Service</label>
+            <select class="form-select">
+              <option>Architecture</option>
+              <option>Interior Design</option>
+              <option>Imaging</option>
+              <option>Project Management</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label class="form-label">Subject</label>
+            <input class="form-input" type="text" placeholder="Brief subject">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Tell us about your project..."></textarea>
+          </div>
+        </div>
+        <button class="btn-primary" style="width:100%;justify-content:center;">Send Message ↗</button>
+      </div>
+    </div>
+  </section>
+</main>
+<footer id="main-footer">
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand-name">Rita Mody Joshi</div>
+      <p class="footer-brand-desc">A leading architecture and interior design practice based in Calangute, Goa. Crafting timeless spaces since 1992.</p>
+      <div style="display:flex;gap:1rem;margin-top:1.5rem;">
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">in</div>
+        <div style="width:32px;height:32px;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:0.75rem;color:rgba(255,255,255,0.4);transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(255,255,255,0.4)'">ig</div>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigation</div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="services.html">Architecture</a></li>
+        <li><a href="services.html">Interior Design</a></li>
+        <li><a href="services.html">3D Imaging</a></li>
+        <li><a href="services.html">Project Management</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links" style="gap:1rem;">
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;line-height:1.7;">Calangute, Bardez<br>Goa 403516</li>
+        <li style="color:rgba(255,255,255,0.5);font-size:0.82rem;">+91 93261-00722</li>
+        <li><a href="mailto:ritamody@gmail.com" style="color:var(--gold);font-size:0.82rem;">ritamody@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>&copy; 2024 <span class="footer-gold">Rita Mody Joshi</span> &amp; Associates. All rights reserved.</div>
+    <div>Architecture + Interior Design + Imaging + Project Management</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+
